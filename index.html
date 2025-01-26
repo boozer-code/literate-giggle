@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>春雨教师寒假摆烂指南</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>春雨教师寒假摆烂指南</h1>
+            <h2>21天极致放松计划</h2>
+        </header>
+        
+        <form id="relaxForm">
+            <label for="startDate">选择开始日期：</label>
+            <input type="date" id="startDate" min="2025-01-20" max="2025-02-09" required>
+            <button type="submit">生成摆烂计划</button>
+        </form>
+
+        <div id="planResult" class="hidden">
+            <h2>您的专属摆烂计划</h2>
+            <div id="planStages"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
